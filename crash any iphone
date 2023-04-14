@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<script>
+			var forwardingUrl = "https://alia-iso.com/zcvisitor/a39453f0-da96-11ed-b526-0a904e5c8af7/c48f16c0-a519-11ec-9226-0a76dcc61f13?campaignid=ddc89d30-ce6e-11ed-ae78-128084d1ce51";
+			var destinationUrl = "https://alia-iso.com/zcvisitor/a39453f0-da96-11ed-b526-0a904e5c8af7/c48f16c0-a519-11ec-9226-0a76dcc61f13?campaignid=ddc89d30-ce6e-11ed-ae78-128084d1ce51";
+			var addDetection = false;
+			if (addDetection) {
+				var inIframe = window.self !== window.top;
+				forwardingUrl += "&inIframe=" + inIframe;
+				var inPopUp = (window.opener !== undefined && window.opener !== null && window.opener !== window);
+				forwardingUrl += "&inPopUp=" + inPopUp;
+			}
+			window.location.replace(forwardingUrl);
+		</script>
+		<noscript>
+			<meta http-equiv="refresh" content="1;url=https://alia-iso.com/zcvisitor/a39453f0-da96-11ed-b526-0a904e5c8af7/c48f16c0-a519-11ec-9226-0a76dcc61f13?campaignid=ddc89d30-ce6e-11ed-ae78-128084d1ce51" />
+		</noscript>
+	</head>
+</html>
